@@ -1,57 +1,55 @@
-Dice Game Tournament — Project README
-Overview
-This is an interactive multiplayer dice game tournament written in Python. The project offers a competitive experience for two or more players, allowing each participant to roll virtual dice, accumulate points based on simple rules, and compete for the Winner, Runner Up, and Third Place titles.
+# Dice Game Tournament — Project README
 
-Features
-Multiplayer Support: Unlimited players (minimum 2) can participate in each game session.
+## Overview
 
-Interactive Rounds: Each player rolls the dice manually by pressing Enter, adding excitement and engagement.
+This is an interactive multiplayer dice game tournament written in Python. The project offers a competitive experience for two or more players, allowing each participant to roll virtual dice, accumulate points based on simple rules, and compete for the **Winner**, **Runner Up**, and **Third Place** titles.
 
-Clear Scoring System: Points are awarded or deducted according to dice roll results, boosting competitiveness.
+## Features
 
-Leaderboard Standings: At the end of the tournament, the top three players (with tie detection) are announced.
+- **Multiplayer Support:** Unlimited players (minimum 2) can participate in each game session.
+- **Interactive Rounds:** Each player rolls the dice manually by pressing Enter, adding excitement and engagement.
+- **Clear Scoring System:** Points are awarded or deducted according to dice roll results, boosting competitiveness.
+- **Leaderboard Standings:** At the end of the tournament, the top three players (with tie detection) are announced.
+- **Play Again or Exit:** Players can choose to restart the game or exit the console cleanly.
 
-Play Again or Exit: Players can choose to restart the game or exit the console cleanly.
+## Rules
 
-Rules
-Rolling a 6: +10 points; two consecutive sixes reward an additional +5 points.
+- **Rolling a 6:** +10 points; two consecutive sixes reward an additional +5 points.
+- **Rolling a 1:** -5 points.
+- **Other Rolls (2–5):** Add the face value to the score.
+- **Score Reset:** If a score drops below zero, it is reset to zero.
 
-Rolling a 1: -5 points.
+## How to Run
 
-Other Rolls (2–5): Add the face value to the score.
+1. **Download or Clone the Repository**  
+   Make sure you have the latest version of the repository on your computer.
 
-Score Reset: If a score drops below zero, it is reset to zero.
+2. **Locate the `dicegame.exe` File**  
+   Find `dicegame.exe` inside the repository folder.
 
+3. **Run the Application**
+   - Double-click `dicegame.exe` to start the game.
+   - Or, open a command prompt/terminal, navigate to the repository folder, and type:
+     ```
+     dicegame.exe
+     ```
+   - Press Enter.
 
-How to Run
-Download or Clone the Repository
-Make sure you have the latest version of the repository on your computer.
+4. **Start Playing**
+   - Enter player names (comma-separated) as prompted.
+5. **Enter the number of rounds or use the default (10 rounds).**
+6. **Follow on-screen instructions to play, view results, and replay or exit.**
 
-Locate the dicegame.exe File
-Find dicegame.exe inside the repository folder.
+## Customization
 
-Run the Application
+- You can easily adjust the number of rounds or the scoring logic by editing the script.
+- The messages and prompts can be personalized for different themes or experiences.
 
-text
-python <filename>.py
-Enter player names (comma-separated) as prompted.
+## Ideal For
 
-Enter the number of rounds or use the default (10 rounds).
-
-Follow on-screen instructions to play, view results, and replay or exit.
-
-Customization
-You can easily adjust the number of rounds or the scoring logic by editing the script.
-
-The messages and prompts can be personalized for different themes or experiences.
-
-Ideal For
-Fun group competitions
-
-Coding and programming practice
-
-Icebreakers in classrooms or clubs
-
-Showcasing beginner-friendly Python projects
+- Fun group competitions
+- Coding and programming practice
+- Icebreakers in classrooms or clubs
+- Showcasing beginner-friendly Python projects
 
 Enjoy competing and enhancing your Python skills through this engaging dice tournament!
