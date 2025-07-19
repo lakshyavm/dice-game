@@ -32,14 +32,9 @@ Find dicegame.exe inside the repository folder.
 
 Run the Application
 
-Double-click dicegame.exe to start the game.
-
-Or, open a command prompt/terminal, navigate to the repository folder, and type:
-
 text
-dicegame.exe
-Press Enter.
-
+python <filename>.py
+Enter player names (comma-separated) as prompted.
 
 Enter the number of rounds or use the default (10 rounds).
 
